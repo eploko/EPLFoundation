@@ -13,7 +13,7 @@
 /* Begin PBXFileReference section */
 		7259C4A41380F675002F7507 /* libEPLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEPLFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7259C4A71380F675002F7507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7259C4AB1380F675002F7507 /* EPLFoundation-Prefix.pch */ = {isa = PBXFileReference; path = "EPLFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		7259C4AB1380F675002F7507 /* EPLFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPLFoundation-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPLFoundation/EPLFoundation-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/EPLFoundation/Private;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/EPLFoundation;
 			};
 			name = Debug;
 		};
@@ -184,7 +186,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPLFoundation/EPLFoundation-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/EPLFoundation/Private;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/EPLFoundation;
 			};
 			name = Release;
 		};
