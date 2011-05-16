@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7259C4A81380F675002F7507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7259C4A71380F675002F7507 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7259C4A41380F675002F7507 /* libEPLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEPLFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7259C4A71380F675002F7507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7259C4AB1380F675002F7507 /* EPLFoundation-Prefix.pch */ = {isa = PBXFileReference; path = "EPLFoundation-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7259C4A11380F675002F7507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259C4A81380F675002F7507 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7259C4991380F675002F7507 = {
+			isa = PBXGroup;
+			children = (
+				7259C4A91380F675002F7507 /* EPLFoundation */,
+				7259C4A61380F675002F7507 /* Frameworks */,
+				7259C4A51380F675002F7507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7259C4A51380F675002F7507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4A41380F675002F7507 /* libEPLFoundation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7259C4A61380F675002F7507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4A71380F675002F7507 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7259C4A91380F675002F7507 /* EPLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4AA1380F675002F7507 /* Supporting Files */,
+			);
+			path = EPLFoundation;
+			sourceTree = "<group>";
+		};
+		7259C4AA1380F675002F7507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4AB1380F675002F7507 /* EPLFoundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7259C4A21380F675002F7507 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7259C4A31380F675002F7507 /* EPLFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7259C4AE1380F675002F7507 /* Build configuration list for PBXNativeTarget "EPLFoundation" */;
+			buildPhases = (
+				7259C4A01380F675002F7507 /* Sources */,
+				7259C4A11380F675002F7507 /* Frameworks */,
+				7259C4A21380F675002F7507 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPLFoundation;
+			productName = EPLFoundation;
+			productReference = 7259C4A41380F675002F7507 /* libEPLFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7259C49B1380F675002F7507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mobile Platforms LLC";
+			};
+			buildConfigurationList = 7259C49E1380F675002F7507 /* Build configuration list for PBXProject "EPLFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7259C4991380F675002F7507;
+			productRefGroup = 7259C4A51380F675002F7507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7259C4A31380F675002F7507 /* EPLFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7259C4A01380F675002F7507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7259C4AC1380F675002F7507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7259C4AD1380F675002F7507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7259C4AF1380F675002F7507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/EPLFoundation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLFoundation/EPLFoundation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7259C4B01380F675002F7507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/EPLFoundation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLFoundation/EPLFoundation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7259C49E1380F675002F7507 /* Build configuration list for PBXProject "EPLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259C4AC1380F675002F7507 /* Debug */,
+				7259C4AD1380F675002F7507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7259C4AE1380F675002F7507 /* Build configuration list for PBXNativeTarget "EPLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259C4AF1380F675002F7507 /* Debug */,
+				7259C4B01380F675002F7507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7259C49B1380F675002F7507 /* Project object */;
+}
