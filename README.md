@@ -1,0 +1,1 @@
+This project gathers together miscellaneous additions to Apple's Foundation classes.
