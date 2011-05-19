@@ -19,6 +19,8 @@
 		7259C4CB1380FB3B002F7507 /* NSMutableArray+EPLQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */; };
 		7259C4CC1380FB3B002F7507 /* NSString+EPLUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7259C4CD1380FB3B002F7507 /* NSString+EPLUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */; };
+		72F34CED1385A99400DE45EF /* NSString+IsEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F34CEE1385A99400DE45EF /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EPLQueue.m"; sourceTree = "<group>"; };
 		7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EPLUUID.h"; sourceTree = "<group>"; };
 		7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EPLUUID.m"; sourceTree = "<group>"; };
+		72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
+		72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */,
 				7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */,
 				7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */,
+				72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */,
+				72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */,
 				7259C4AA1380F675002F7507 /* Supporting Files */,
 			);
 			path = EPLFoundation;
@@ -116,6 +122,7 @@
 				7259C4C81380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.h in Headers */,
 				7259C4CA1380FB3B002F7507 /* NSMutableArray+EPLQueue.h in Headers */,
 				7259C4CC1380FB3B002F7507 /* NSString+EPLUUID.h in Headers */,
+				72F34CED1385A99400DE45EF /* NSString+IsEmpty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +180,7 @@
 				7259C4C91380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.m in Sources */,
 				7259C4CB1380FB3B002F7507 /* NSMutableArray+EPLQueue.m in Sources */,
 				7259C4CD1380FB3B002F7507 /* NSString+EPLUUID.m in Sources */,
+				72F34CEE1385A99400DE45EF /* NSString+IsEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
