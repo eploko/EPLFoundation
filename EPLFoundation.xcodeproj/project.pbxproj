@@ -19,6 +19,8 @@
 		7259C4CB1380FB3B002F7507 /* NSMutableArray+EPLQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */; };
 		7259C4CC1380FB3B002F7507 /* NSString+EPLUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7259C4CD1380FB3B002F7507 /* NSString+EPLUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */; };
+		729AAB2B138889CF00991FE1 /* NSString+DistanceFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 729AAB29138889CF00991FE1 /* NSString+DistanceFormatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729AAB2C138889CF00991FE1 /* NSString+DistanceFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 729AAB2A138889CF00991FE1 /* NSString+DistanceFormatting.m */; };
 		72F34CED1385A99400DE45EF /* NSString+IsEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72F34CEE1385A99400DE45EF /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EPLQueue.m"; sourceTree = "<group>"; };
 		7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EPLUUID.h"; sourceTree = "<group>"; };
 		7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EPLUUID.m"; sourceTree = "<group>"; };
+		729AAB29138889CF00991FE1 /* NSString+DistanceFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DistanceFormatting.h"; sourceTree = "<group>"; };
+		729AAB2A138889CF00991FE1 /* NSString+DistanceFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DistanceFormatting.m"; sourceTree = "<group>"; };
 		72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
 		72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,8 @@
 				7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */,
 				72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */,
 				72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */,
+				729AAB29138889CF00991FE1 /* NSString+DistanceFormatting.h */,
+				729AAB2A138889CF00991FE1 /* NSString+DistanceFormatting.m */,
 				7259C4AA1380F675002F7507 /* Supporting Files */,
 			);
 			path = EPLFoundation;
@@ -123,6 +129,7 @@
 				7259C4CA1380FB3B002F7507 /* NSMutableArray+EPLQueue.h in Headers */,
 				7259C4CC1380FB3B002F7507 /* NSString+EPLUUID.h in Headers */,
 				72F34CED1385A99400DE45EF /* NSString+IsEmpty.h in Headers */,
+				729AAB2B138889CF00991FE1 /* NSString+DistanceFormatting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +188,7 @@
 				7259C4CB1380FB3B002F7507 /* NSMutableArray+EPLQueue.m in Sources */,
 				7259C4CD1380FB3B002F7507 /* NSString+EPLUUID.m in Sources */,
 				72F34CEE1385A99400DE45EF /* NSString+IsEmpty.m in Sources */,
+				729AAB2C138889CF00991FE1 /* NSString+DistanceFormatting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
