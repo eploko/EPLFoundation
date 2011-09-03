@@ -7,109 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7259C4A81380F675002F7507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7259C4A71380F675002F7507 /* Foundation.framework */; };
-		7259C4B81380FAD1002F7507 /* EPLFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4B71380FAD1002F7507 /* EPLFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4C41380FB3B002F7507 /* EPLDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4BA1380FB3A002F7507 /* EPLDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4C51380FB3B002F7507 /* EPLError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4BB1380FB3A002F7507 /* EPLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4C61380FB3B002F7507 /* EPLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4BC1380FB3A002F7507 /* EPLError.m */; };
-		7259C4C71380FB3B002F7507 /* EPLSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4BD1380FB3A002F7507 /* EPLSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4C81380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4BE1380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4C91380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4BF1380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.m */; };
-		7259C4CA1380FB3B002F7507 /* NSMutableArray+EPLQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4C01380FB3B002F7507 /* NSMutableArray+EPLQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4CB1380FB3B002F7507 /* NSMutableArray+EPLQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */; };
-		7259C4CC1380FB3B002F7507 /* NSString+EPLUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7259C4CD1380FB3B002F7507 /* NSString+EPLUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */; };
-		729AAB2B138889CF00991FE1 /* NSString+DistanceFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 729AAB29138889CF00991FE1 /* NSString+DistanceFormatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		729AAB2C138889CF00991FE1 /* NSString+DistanceFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 729AAB2A138889CF00991FE1 /* NSString+DistanceFormatting.m */; };
-		72F34CED1385A99400DE45EF /* NSString+IsEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72F34CEE1385A99400DE45EF /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */; };
+		7269FEF81412F05A00C7720E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269FEF71412F05A00C7720E /* Cocoa.framework */; };
+		7269FF021412F05A00C7720E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7269FF001412F05A00C7720E /* InfoPlist.strings */; };
+		72D29EB71412F15300841187 /* EPLDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EA81412F15300841187 /* EPLDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EB81412F15300841187 /* EPLError.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EA91412F15300841187 /* EPLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EB91412F15300841187 /* EPLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EAA1412F15300841187 /* EPLError.m */; };
+		72D29EBA1412F15300841187 /* EPLFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EAB1412F15300841187 /* EPLFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EBB1412F15300841187 /* EPLSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EAC1412F15300841187 /* EPLSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EBC1412F15300841187 /* NSDate+EPLTimeAgoInWords.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EAD1412F15300841187 /* NSDate+EPLTimeAgoInWords.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EBD1412F15300841187 /* NSDate+EPLTimeAgoInWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EAE1412F15300841187 /* NSDate+EPLTimeAgoInWords.m */; };
+		72D29EBE1412F15300841187 /* NSMutableArray+EPLQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EAF1412F15300841187 /* NSMutableArray+EPLQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EBF1412F15300841187 /* NSMutableArray+EPLQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EB01412F15300841187 /* NSMutableArray+EPLQueue.m */; };
+		72D29EC01412F15300841187 /* NSString+DistanceFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EB11412F15300841187 /* NSString+DistanceFormatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EC11412F15300841187 /* NSString+DistanceFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EB21412F15300841187 /* NSString+DistanceFormatting.m */; };
+		72D29EC21412F15300841187 /* NSString+EPLUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EB31412F15300841187 /* NSString+EPLUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EC31412F15300841187 /* NSString+EPLUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EB41412F15300841187 /* NSString+EPLUUID.m */; };
+		72D29EC41412F15300841187 /* NSString+IsEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EB51412F15300841187 /* NSString+IsEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D29EC51412F15300841187 /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EB61412F15300841187 /* NSString+IsEmpty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7259C4A41380F675002F7507 /* libEPLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEPLFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7259C4A71380F675002F7507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7259C4AB1380F675002F7507 /* EPLFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPLFoundation-Prefix.pch"; sourceTree = "<group>"; };
-		7259C4B71380FAD1002F7507 /* EPLFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLFoundation.h; sourceTree = "<group>"; };
-		7259C4BA1380FB3A002F7507 /* EPLDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLDebug.h; sourceTree = "<group>"; };
-		7259C4BB1380FB3A002F7507 /* EPLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLError.h; sourceTree = "<group>"; };
-		7259C4BC1380FB3A002F7507 /* EPLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLError.m; sourceTree = "<group>"; };
-		7259C4BD1380FB3A002F7507 /* EPLSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLSingleton.h; sourceTree = "<group>"; };
-		7259C4BE1380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EPLTimeAgoInWords.h"; sourceTree = "<group>"; };
-		7259C4BF1380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EPLTimeAgoInWords.m"; sourceTree = "<group>"; };
-		7259C4C01380FB3B002F7507 /* NSMutableArray+EPLQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+EPLQueue.h"; sourceTree = "<group>"; };
-		7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EPLQueue.m"; sourceTree = "<group>"; };
-		7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EPLUUID.h"; sourceTree = "<group>"; };
-		7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EPLUUID.m"; sourceTree = "<group>"; };
-		729AAB29138889CF00991FE1 /* NSString+DistanceFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DistanceFormatting.h"; sourceTree = "<group>"; };
-		729AAB2A138889CF00991FE1 /* NSString+DistanceFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DistanceFormatting.m"; sourceTree = "<group>"; };
-		72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
-		72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
+		7269FEF41412F05A00C7720E /* EPLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269FEF71412F05A00C7720E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7269FEFA1412F05A00C7720E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7269FEFB1412F05A00C7720E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7269FEFC1412F05A00C7720E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7269FEFF1412F05A00C7720E /* EPLFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPLFoundation-Info.plist"; sourceTree = "<group>"; };
+		7269FF011412F05A00C7720E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7269FF031412F05A00C7720E /* EPLFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPLFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		72D29EA81412F15300841187 /* EPLDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLDebug.h; sourceTree = "<group>"; };
+		72D29EA91412F15300841187 /* EPLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLError.h; sourceTree = "<group>"; };
+		72D29EAA1412F15300841187 /* EPLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLError.m; sourceTree = "<group>"; };
+		72D29EAB1412F15300841187 /* EPLFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLFoundation.h; sourceTree = "<group>"; };
+		72D29EAC1412F15300841187 /* EPLSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLSingleton.h; sourceTree = "<group>"; };
+		72D29EAD1412F15300841187 /* NSDate+EPLTimeAgoInWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EPLTimeAgoInWords.h"; sourceTree = "<group>"; };
+		72D29EAE1412F15300841187 /* NSDate+EPLTimeAgoInWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EPLTimeAgoInWords.m"; sourceTree = "<group>"; };
+		72D29EAF1412F15300841187 /* NSMutableArray+EPLQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+EPLQueue.h"; sourceTree = "<group>"; };
+		72D29EB01412F15300841187 /* NSMutableArray+EPLQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EPLQueue.m"; sourceTree = "<group>"; };
+		72D29EB11412F15300841187 /* NSString+DistanceFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DistanceFormatting.h"; sourceTree = "<group>"; };
+		72D29EB21412F15300841187 /* NSString+DistanceFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DistanceFormatting.m"; sourceTree = "<group>"; };
+		72D29EB31412F15300841187 /* NSString+EPLUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EPLUUID.h"; sourceTree = "<group>"; };
+		72D29EB41412F15300841187 /* NSString+EPLUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EPLUUID.m"; sourceTree = "<group>"; };
+		72D29EB51412F15300841187 /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
+		72D29EB61412F15300841187 /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7259C4A11380F675002F7507 /* Frameworks */ = {
+		7269FEF01412F05A00C7720E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7259C4A81380F675002F7507 /* Foundation.framework in Frameworks */,
+				7269FEF81412F05A00C7720E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7259C4991380F675002F7507 = {
+		7269FEE81412F05A00C7720E = {
 			isa = PBXGroup;
 			children = (
-				7259C4A91380F675002F7507 /* EPLFoundation */,
-				7259C4A61380F675002F7507 /* Frameworks */,
-				7259C4A51380F675002F7507 /* Products */,
+				7269FEFD1412F05A00C7720E /* EPLFoundation */,
+				7269FEF61412F05A00C7720E /* Frameworks */,
+				7269FEF51412F05A00C7720E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7259C4A51380F675002F7507 /* Products */ = {
+		7269FEF51412F05A00C7720E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7259C4A41380F675002F7507 /* libEPLFoundation.a */,
+				7269FEF41412F05A00C7720E /* EPLFoundation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7259C4A61380F675002F7507 /* Frameworks */ = {
+		7269FEF61412F05A00C7720E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7259C4A71380F675002F7507 /* Foundation.framework */,
+				7269FEF71412F05A00C7720E /* Cocoa.framework */,
+				7269FEF91412F05A00C7720E /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7259C4A91380F675002F7507 /* EPLFoundation */ = {
+		7269FEF91412F05A00C7720E /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7259C4B71380FAD1002F7507 /* EPLFoundation.h */,
-				7259C4BA1380FB3A002F7507 /* EPLDebug.h */,
-				7259C4BB1380FB3A002F7507 /* EPLError.h */,
-				7259C4BC1380FB3A002F7507 /* EPLError.m */,
-				7259C4BD1380FB3A002F7507 /* EPLSingleton.h */,
-				7259C4BE1380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.h */,
-				7259C4BF1380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.m */,
-				7259C4C01380FB3B002F7507 /* NSMutableArray+EPLQueue.h */,
-				7259C4C11380FB3B002F7507 /* NSMutableArray+EPLQueue.m */,
-				7259C4C21380FB3B002F7507 /* NSString+EPLUUID.h */,
-				7259C4C31380FB3B002F7507 /* NSString+EPLUUID.m */,
-				72F34CEB1385A99400DE45EF /* NSString+IsEmpty.h */,
-				72F34CEC1385A99400DE45EF /* NSString+IsEmpty.m */,
-				729AAB29138889CF00991FE1 /* NSString+DistanceFormatting.h */,
-				729AAB2A138889CF00991FE1 /* NSString+DistanceFormatting.m */,
-				7259C4AA1380F675002F7507 /* Supporting Files */,
+				7269FEFA1412F05A00C7720E /* AppKit.framework */,
+				7269FEFB1412F05A00C7720E /* CoreData.framework */,
+				7269FEFC1412F05A00C7720E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7269FEFD1412F05A00C7720E /* EPLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				72D29EAB1412F15300841187 /* EPLFoundation.h */,
+				72D29EA81412F15300841187 /* EPLDebug.h */,
+				72D29EA91412F15300841187 /* EPLError.h */,
+				72D29EAA1412F15300841187 /* EPLError.m */,
+				72D29EAC1412F15300841187 /* EPLSingleton.h */,
+				72D29EAD1412F15300841187 /* NSDate+EPLTimeAgoInWords.h */,
+				72D29EAE1412F15300841187 /* NSDate+EPLTimeAgoInWords.m */,
+				72D29EAF1412F15300841187 /* NSMutableArray+EPLQueue.h */,
+				72D29EB01412F15300841187 /* NSMutableArray+EPLQueue.m */,
+				72D29EB11412F15300841187 /* NSString+DistanceFormatting.h */,
+				72D29EB21412F15300841187 /* NSString+DistanceFormatting.m */,
+				72D29EB31412F15300841187 /* NSString+EPLUUID.h */,
+				72D29EB41412F15300841187 /* NSString+EPLUUID.m */,
+				72D29EB51412F15300841187 /* NSString+IsEmpty.h */,
+				72D29EB61412F15300841187 /* NSString+IsEmpty.m */,
+				7269FEFE1412F05A00C7720E /* Supporting Files */,
 			);
 			path = EPLFoundation;
 			sourceTree = "<group>";
 		};
-		7259C4AA1380F675002F7507 /* Supporting Files */ = {
+		7269FEFE1412F05A00C7720E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7259C4AB1380F675002F7507 /* EPLFoundation-Prefix.pch */,
+				7269FEFF1412F05A00C7720E /* EPLFoundation-Info.plist */,
+				7269FF001412F05A00C7720E /* InfoPlist.strings */,
+				7269FF031412F05A00C7720E /* EPLFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,32 +136,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7259C4A21380F675002F7507 /* Headers */ = {
+		7269FEF11412F05A00C7720E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7259C4B81380FAD1002F7507 /* EPLFoundation.h in Headers */,
-				7259C4C41380FB3B002F7507 /* EPLDebug.h in Headers */,
-				7259C4C51380FB3B002F7507 /* EPLError.h in Headers */,
-				7259C4C71380FB3B002F7507 /* EPLSingleton.h in Headers */,
-				7259C4C81380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.h in Headers */,
-				7259C4CA1380FB3B002F7507 /* NSMutableArray+EPLQueue.h in Headers */,
-				7259C4CC1380FB3B002F7507 /* NSString+EPLUUID.h in Headers */,
-				72F34CED1385A99400DE45EF /* NSString+IsEmpty.h in Headers */,
-				729AAB2B138889CF00991FE1 /* NSString+DistanceFormatting.h in Headers */,
+				72D29EB71412F15300841187 /* EPLDebug.h in Headers */,
+				72D29EB81412F15300841187 /* EPLError.h in Headers */,
+				72D29EBA1412F15300841187 /* EPLFoundation.h in Headers */,
+				72D29EBB1412F15300841187 /* EPLSingleton.h in Headers */,
+				72D29EBC1412F15300841187 /* NSDate+EPLTimeAgoInWords.h in Headers */,
+				72D29EBE1412F15300841187 /* NSMutableArray+EPLQueue.h in Headers */,
+				72D29EC01412F15300841187 /* NSString+DistanceFormatting.h in Headers */,
+				72D29EC21412F15300841187 /* NSString+EPLUUID.h in Headers */,
+				72D29EC41412F15300841187 /* NSString+IsEmpty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7259C4A31380F675002F7507 /* EPLFoundation */ = {
+		7269FEF31412F05A00C7720E /* EPLFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7259C4AE1380F675002F7507 /* Build configuration list for PBXNativeTarget "EPLFoundation" */;
+			buildConfigurationList = 7269FF091412F05A00C7720E /* Build configuration list for PBXNativeTarget "EPLFoundation" */;
 			buildPhases = (
-				7259C4A01380F675002F7507 /* Sources */,
-				7259C4A11380F675002F7507 /* Frameworks */,
-				7259C4A21380F675002F7507 /* Headers */,
+				7269FEEF1412F05A00C7720E /* Sources */,
+				7269FEF01412F05A00C7720E /* Frameworks */,
+				7269FEF11412F05A00C7720E /* Headers */,
+				7269FEF21412F05A00C7720E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -150,133 +170,169 @@
 			);
 			name = EPLFoundation;
 			productName = EPLFoundation;
-			productReference = 7259C4A41380F675002F7507 /* libEPLFoundation.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 7269FEF41412F05A00C7720E /* EPLFoundation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7259C49B1380F675002F7507 /* Project object */ = {
+		7269FEEA1412F05A00C7720E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = Plokodelika;
+				ORGANIZATIONNAME = "Mobile Platforms LLC";
 			};
-			buildConfigurationList = 7259C49E1380F675002F7507 /* Build configuration list for PBXProject "EPLFoundation" */;
+			buildConfigurationList = 7269FEED1412F05A00C7720E /* Build configuration list for PBXProject "EPLFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7259C4991380F675002F7507;
-			productRefGroup = 7259C4A51380F675002F7507 /* Products */;
+			mainGroup = 7269FEE81412F05A00C7720E;
+			productRefGroup = 7269FEF51412F05A00C7720E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7259C4A31380F675002F7507 /* EPLFoundation */,
+				7269FEF31412F05A00C7720E /* EPLFoundation */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		7269FEF21412F05A00C7720E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269FF021412F05A00C7720E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		7259C4A01380F675002F7507 /* Sources */ = {
+		7269FEEF1412F05A00C7720E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7259C4C61380FB3B002F7507 /* EPLError.m in Sources */,
-				7259C4C91380FB3B002F7507 /* NSDate+EPLTimeAgoInWords.m in Sources */,
-				7259C4CB1380FB3B002F7507 /* NSMutableArray+EPLQueue.m in Sources */,
-				7259C4CD1380FB3B002F7507 /* NSString+EPLUUID.m in Sources */,
-				72F34CEE1385A99400DE45EF /* NSString+IsEmpty.m in Sources */,
-				729AAB2C138889CF00991FE1 /* NSString+DistanceFormatting.m in Sources */,
+				72D29EB91412F15300841187 /* EPLError.m in Sources */,
+				72D29EBD1412F15300841187 /* NSDate+EPLTimeAgoInWords.m in Sources */,
+				72D29EBF1412F15300841187 /* NSMutableArray+EPLQueue.m in Sources */,
+				72D29EC11412F15300841187 /* NSString+DistanceFormatting.m in Sources */,
+				72D29EC31412F15300841187 /* NSString+EPLUUID.m in Sources */,
+				72D29EC51412F15300841187 /* NSString+IsEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		7269FF001412F05A00C7720E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7269FF011412F05A00C7720E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		7259C4AC1380F675002F7507 /* Debug */ = {
+		7269FF071412F05A00C7720E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		7259C4AD1380F675002F7507 /* Release */ = {
+		7269FF081412F05A00C7720E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		7259C4AF1380F675002F7507 /* Debug */ = {
+		7269FF0A1412F05A00C7720E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/EPLFoundation.dst;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPLFoundation/EPLFoundation-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = include/EPLFoundation/Private;
+				INFOPLIST_FILE = "EPLFoundation/EPLFoundation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/EPLFoundation;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		7259C4B01380F675002F7507 /* Release */ = {
+		7269FF0B1412F05A00C7720E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/EPLFoundation.dst;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPLFoundation/EPLFoundation-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = include/EPLFoundation/Private;
+				INFOPLIST_FILE = "EPLFoundation/EPLFoundation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/EPLFoundation;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7259C49E1380F675002F7507 /* Build configuration list for PBXProject "EPLFoundation" */ = {
+		7269FEED1412F05A00C7720E /* Build configuration list for PBXProject "EPLFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7259C4AC1380F675002F7507 /* Debug */,
-				7259C4AD1380F675002F7507 /* Release */,
+				7269FF071412F05A00C7720E /* Debug */,
+				7269FF081412F05A00C7720E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7259C4AE1380F675002F7507 /* Build configuration list for PBXNativeTarget "EPLFoundation" */ = {
+		7269FF091412F05A00C7720E /* Build configuration list for PBXNativeTarget "EPLFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7259C4AF1380F675002F7507 /* Debug */,
-				7259C4B01380F675002F7507 /* Release */,
+				7269FF0A1412F05A00C7720E /* Debug */,
+				7269FF0B1412F05A00C7720E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7259C49B1380F675002F7507 /* Project object */;
+	rootObject = 7269FEEA1412F05A00C7720E /* Project object */;
 }
