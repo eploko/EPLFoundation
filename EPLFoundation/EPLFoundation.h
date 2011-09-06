@@ -14,3 +14,4 @@
 #import "NSString+DistanceFormatting.h"
 #import "NSString+EPLUUID.h"
 #import "NSString+IsEmpty.h"
+#import "NSString+URIEncode.h"
