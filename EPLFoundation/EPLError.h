@@ -16,11 +16,11 @@
 - (id)initWithDomain:(NSString *)domain code:(NSInteger)code userInfo:(NSDictionary *)dict;
 + (id)errorWithDomain:(NSString *)domain code:(NSInteger)code userInfo:(NSDictionary *)dict;
 
-#pragma mark Primitive methods
+#pragma mark - Primitive methods
 
 + (NSString *)domain;
 
-#pragma mark Derived methods
+#pragma mark - Derived methods
 
 + (NSError *)errorWithCode:(int)code descriptionWithFormat:(NSString *)format, ...;
 

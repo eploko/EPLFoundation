@@ -24,14 +24,14 @@
     return [[[self alloc] initWithDomain:domain code:code userInfo:dict] autorelease];
 }
 
-#pragma mark Primitive methods
+#pragma mark - Primitive methods
 
 + (NSString *)domain 
 {
     return @"com.plokodelika.EPLKit.EPLCore";
 }
 
-#pragma mark Derived methods
+#pragma mark - Derived methods
 
 + (NSError *)errorWithCode:(int)code descriptionWithFormat:(NSString *)format, ...
 {
