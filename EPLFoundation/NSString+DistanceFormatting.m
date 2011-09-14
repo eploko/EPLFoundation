@@ -50,7 +50,9 @@
     [numberFormatter setLocale:[NSLocale currentLocale]];
     [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
     [numberFormatter setMaximumFractionDigits:1];
-    return [numberFormatter stringFromNumber:[NSNumber numberWithDouble:value]];
+    NSString *result = [numberFormatter stringFromNumber:[NSNumber numberWithDouble:value]];
+    [numberFormatter release];
+    return result;
 }
 
 @end

@@ -13,7 +13,7 @@
 - (NSString *)stringByURIEncoding
 {
     NSString *result = (NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)self, NULL, (CFStringRef)@"!*'();:@&=+$,/?%#[]", kCFStringEncodingUTF8); 
-    return result;
+    return [result autorelease];
 }
 
 @end
