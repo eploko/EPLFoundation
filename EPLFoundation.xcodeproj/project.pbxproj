@@ -26,6 +26,7 @@
 		72D29EC31412F15300841187 /* NSString+EPLUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EB41412F15300841187 /* NSString+EPLUUID.m */; };
 		72D29EC41412F15300841187 /* NSString+IsEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D29EB51412F15300841187 /* NSString+IsEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72D29EC51412F15300841187 /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D29EB61412F15300841187 /* NSString+IsEmpty.m */; };
+		72ED7CDD142C2E690023877E /* EPLNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 72ED7CDB142C2E690023877E /* EPLNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		72D29EB41412F15300841187 /* NSString+EPLUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EPLUUID.m"; sourceTree = "<group>"; };
 		72D29EB51412F15300841187 /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
 		72D29EB61412F15300841187 /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
+		72ED7CDB142C2E690023877E /* EPLNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLNull.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				72D29EA81412F15300841187 /* EPLDebug.h */,
 				72D29EA91412F15300841187 /* EPLError.h */,
 				72D29EAA1412F15300841187 /* EPLError.m */,
+				72ED7CDB142C2E690023877E /* EPLNull.h */,
 				72D29EAC1412F15300841187 /* EPLSingleton.h */,
 				72D29EAD1412F15300841187 /* NSDate+EPLTimeAgoInWords.h */,
 				72D29EAE1412F15300841187 /* NSDate+EPLTimeAgoInWords.m */,
@@ -156,6 +159,7 @@
 				72D29EC21412F15300841187 /* NSString+EPLUUID.h in Headers */,
 				72D29EC41412F15300841187 /* NSString+IsEmpty.h in Headers */,
 				7274F96B1415BC730082CC05 /* NSString+URIEncode.h in Headers */,
+				72ED7CDD142C2E690023877E /* EPLNull.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
