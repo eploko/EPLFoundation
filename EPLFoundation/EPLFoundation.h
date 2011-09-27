@@ -16,3 +16,4 @@
 #import "NSString+EPLUUID.h"
 #import "NSString+IsEmpty.h"
 #import "NSString+URIEncode.h"
+#import "NSURL+Pieces.h"
