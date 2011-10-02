@@ -1,5 +1,5 @@
 //
-//  NSString+EPLTimeFormatting.h
+//  EPLTimeIntervalFormatter.h
 //  EPLFoundation
 //
 //  Created by Andrey Subbotin on 10/2/11.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (EPLTimeFormatting)
-
-+ (NSString *)eplStringWithTimeInterval:(NSTimeInterval)interval;
+@interface EPLTimeIntervalFormatter : NSFormatter
 
 @end
