@@ -14,6 +14,7 @@
 #import "NSDate+EPLTimeAgoInWords.h"
 #import "NSMutableArray+EPLQueue.h"
 #import "NSString+DistanceFormatting.h"
+#import "NSString+EPLHTMLEntities.h"
 #import "NSString+EPLUUID.h"
 #import "NSString+IsEmpty.h"
 #import "NSString+URIEncode.h"
