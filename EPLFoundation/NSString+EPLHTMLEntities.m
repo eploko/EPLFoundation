@@ -69,7 +69,14 @@
             }
             
             if (gotNumber) {
-                [result appendFormat:@"%C", charCode];
+                if (charCode < 0x10000) {
+                    [result appendFormat:@"%C", (unichar)charCode];
+                } else {
+                    unsigned highSurrogate = (charCode >> 10) + 0xD7C0;
+                    unsigned lowSurrogate = (charCode & 0x3ff) + 0xDC00;
+                    [result appendFormat:@"%C", (unichar)highSurrogate];
+                    [result appendFormat:@"%C", (unichar)lowSurrogate];
+                }
                 
                 [scanner scanString:@";" intoString:NULL];
             }
